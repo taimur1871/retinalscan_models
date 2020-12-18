@@ -1,2 +1,2 @@
-# retinalscan_models
-classification and segmentation of retinal scans
+# Retinal Scan Models
+classification and segmentation of retinal scans.
