@@ -13,6 +13,8 @@ This dataset was taken from a Kaggle competition. The details can be found here 
 
 The image below shows a high contrast example of Diabetic Retinopathy
 
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/dbr.jpg" alt="Diabetic Retinopathy" width="200"/>
+
 ![Diabetic Retinopathy](https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/dbr.jpg)
 
 ### What is Glaucoma?
