@@ -93,3 +93,12 @@ Heatmaps were created using EfficientNet B5 and Resnet50 outputs. The heat maps 
 <img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_normal2.jpg" alt="Original_norm2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/normal2.jpg" alt="norm2" width="250"/>
 
 # Label Propogation
+
+For label propogation K-nearest-neighbor algrithm was used.
+
+## Loading Model and Getting Predictions
+
+The pretrained model was loaded and output from final prediction layer was fed to a knn model with 4 categories. The model was then used for making predictions on the test data.
+Based on these predictions the test data was moved to in a new training dataset. A new resnet50 model was initiated with same datagen parameters. The training results however were not very encouraging. The accuracy did increase to around 40% compared to about 30% for the original model.
+
+One of the reasons could be that the original model was not doing a very good job at identifying the true categories.
