@@ -56,3 +56,24 @@ The images below show increased contrast. This does enhance differences between 
 <img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/dbr.jpg" alt="Diabetic Retinopathy" width="250"/>
 <img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/g4.jpg" alt="Glaucoma" width="250"/>
 <img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/n2.jpg" alt="Normal" width="250"/>
+
+# Data Selection
+
+The original dataset contains 7 categories. However, for the first model these were separted into 4 categories as mentioned above. The other category contained more than 1500 images which made the samples imbalanced. So about 750 examples were randomly chosen from these images to ensure more balanced training data.
+
+
+# Models Tested
+
+A number of models were used from tensorflow applications. The following models were tested,
+
+* VGG19
+* EfficinetNet B5
+* MobileNet V2
+* ResNet50
+
+Out of all these Resnet50 showed the best results on both 7 category dataset and the 4 category dataset.
+
+# HeatMaps
+
+Heatmaps were created using EfficientNet B5 and Resnet50 outputs. The heat maps show that the models focused mainly on the visual disc and brighter spots on the retinal scans. The model does not at the moment do a very good job however of separating different conditions.
+
