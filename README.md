@@ -77,3 +77,19 @@ Out of all these Resnet50 showed the best results on both 7 category dataset and
 
 Heatmaps were created using EfficientNet B5 and Resnet50 outputs. The heat maps show that the models focused mainly on the visual disc and brighter spots on the retinal scans. The model does not at the moment do a very good job however of separating different conditions.
 
+### Diabetic Retinopathy
+
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_dbr1.jpg" alt="Original_DBR1" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/dbr1.jpg" alt="DBR1" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_dbr2.jpg" alt="Original_DBR2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/dbr2.jpg" alt="DBR1" width="250"/>
+
+### Glaucoma
+
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_glc1.jpg" alt="Original_glc1" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/glc1.jpg" alt="glc1" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_glc2.jpg" alt="Original_glc2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/glc2.jpg" alt="glc2" width="250"/>
+
+### Normal
+
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_normal1.jpg" alt="Original_norm1" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/normal1.jpg" alt="norm1" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_normal2.jpg" alt="Original_norm2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/normal2.jpg" alt="norm2" width="250"/>
+
+# Label Propogation
