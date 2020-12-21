@@ -9,6 +9,13 @@ Retinal scans are useful tools for detecting a number of eye conditions. However
 
 This dataset was taken from a Kaggle competition. The details can be found here (https://www.kaggle.com/c/vietai-advance-course-retinal-disease-detection/overview)
 
+## Tools Used
+* Jupyter Notebooks
+* OpenCV
+* PIL (pillow)
+* Python 3.8
+* Tensorflow 2.3
+
 ### What is Diabetic Retinopathy?
 
 The image below shows a high contrast example of Diabetic Retinopathy
