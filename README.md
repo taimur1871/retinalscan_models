@@ -39,13 +39,13 @@ Based on the observations above the following image processing techniques were t
 An analysis was carried out to see if a particular channel represents dataset separation better than other. The results are shown below.
 
 ### Diabetic Retinopathy
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/dbr.png" alt="Diabetic Retinopathy" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/dbr.png" alt="Diabetic Retinopathy" width="400"/>
 
 ### Glaucoma
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/glc.png" alt="Glaucoma" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/glc.png" alt="Glaucoma" width="400"/>
 
 ### Normal
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/normal.png" alt="Normal" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/normal.png" alt="Normal" width="400"/>
 
 The channels do show variations within an image but the separation between images is not very clear.
 
