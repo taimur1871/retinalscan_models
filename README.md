@@ -13,17 +13,16 @@ This dataset was taken from a Kaggle competition. The details can be found here 
 
 The image below shows a high contrast example of Diabetic Retinopathy
 
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/dbr.jpg" alt="Diabetic Retinopathy" width="200"/>
-
-![Diabetic Retinopathy](https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/dbr.jpg)
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/dbr.jpg" alt="Diabetic Retinopathy" width="250"/>
 
 ### What is Glaucoma?
 
 The image below shows an example of Glaucoma. The area affected by Glaucoma is around the optic disk.
 
-![Glaucoma](https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/g4.jpg)
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/high_contrast_images/g4.jpg" alt="Glaucoma" width="250"/>
 
-![Explanation of Glaucoma](https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/glc%20from%20paper.png)
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/processed_images/glc%20from%20paper.png" alt="Glaucoma Explanation" width="250"/>
 
 image taken from 
 H. Fu et al., "Disc-Aware Ensemble Network for Glaucoma Screening From Fundus Image," in IEEE Transactions on Medical Imaging, vol. 37, no. 11, pp. 2493-2501, Nov. 2018, doi: 10.1109/TMI.2018.2837012.
+
