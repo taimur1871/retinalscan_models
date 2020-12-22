@@ -68,8 +68,10 @@ The images below show increased contrast. This does enhance differences between 
 
 The original dataset contains 7 categories. However, for the first model these were separted into 4 categories as mentioned above. The other category contained more than 1500 images which made the samples imbalanced. So about 750 examples were randomly chosen from these images to ensure more balanced training data.
 
+# First Approach
+The first approach was to try and create a single multiclassification model. For second approach please scroll below to that section.
 
-# Models Tested
+## Models Tested
 
 A number of models were used from tensorflow applications. The following models were tested,
 
@@ -109,3 +111,24 @@ The pretrained model was loaded and output from final prediction layer was fed t
 Based on these predictions the test data was moved to in a new training dataset. A new resnet50 model was initiated with same datagen parameters. The training results however were not very encouraging. The accuracy did increase to around 40% compared to about 30% for the original model.
 
 One of the reasons could be that the original model was not doing a very good job at identifying the true categories.
+
+# Second Approach
+In this approach one vs normal models were trained.
+
+## Logic
+Based on the scans it was oserved that each eye ailment addresses different areas/problems. 
+So a normal vs diabetic retinopathy  approach enhanced the images by increasing contrast and brightness to highlight damage to retina.
+A normal vs Glaucoma approach increased contrast only to shift the focus to visual disc only.
+
+## Model Used
+A custom architecture with a residual connection was used to train these models. This was done to test the concept and speed up the training process.
+
+## Results
+
+The Diabetic Retinopathy test resulted in 87% accuracy
+The Glaucoma test resulted in 
+The other test resulted in
+
+Heat Maps
+
+Label Transfer
