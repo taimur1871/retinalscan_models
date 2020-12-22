@@ -88,17 +88,17 @@ Heatmaps were created using EfficientNet B5 and Resnet50 outputs. The heat maps 
 
 ### Diabetic Retinopathy
 
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_dbr1.jpg" alt="Original_DBR1" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/dbr1.jpg" alt="DBR1" width="250"/>
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_dbr2.jpg" alt="Original_DBR2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/dbr2.jpg" alt="DBR1" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_dbr1.jpg" alt="Original_DBR1" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/dbr1.jpg" alt="DBR1" width="200"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_dbr2.jpg" alt="Original_DBR2" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/dbr2.jpg" alt="DBR1" width="200"/>
 
 ### Glaucoma
 
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_glc1.jpg" alt="Original_glc1" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/glc1.jpg" alt="glc1" width="250"/>
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_glc2.jpg" alt="Original_glc2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/glc2.jpg" alt="glc2" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_glc1.jpg" alt="Original_glc1" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/glc1.jpg" alt="glc1" width="200"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_glc2.jpg" alt="Original_glc2" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/glc2.jpg" alt="glc2" width="200"/>
 
 ### Normal
 
-<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_normal1.jpg" alt="Original_norm1" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/normal1.jpg" alt="norm1" width="250"/>
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_normal1.jpg" alt="Original_norm1" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/normal1.jpg" alt="norm1" width="200"/>
 <img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/orig_normal2.jpg" alt="Original_norm2" width="250"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps/normal2.jpg" alt="norm2" width="250"/>
 
 # Label Propogation
@@ -130,5 +130,10 @@ The Glaucoma test resulted in
 The other test resulted in
 
 Heat Maps
+
+The heat maps generated for Diabetic Retinopathy are given below,
+The custom model does not have a very good representation in the heat maps but work is being done to fix this.
+
+<img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps_binary/dbr/dbr1.jpg" alt="dbr1" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps_binary/dbr/dbr2.jpg" alt="dbr2" width="200"/>
 
 Label Transfer
