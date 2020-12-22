@@ -129,11 +129,14 @@ The Diabetic Retinopathy test resulted in 87% accuracy
 The Glaucoma test resulted in 
 The other test resulted in
 
-Heat Maps
+## Heat Maps
 
 The heat maps generated for Diabetic Retinopathy are given below,
 The custom model does not have a very good representation in the heat maps but work is being done to fix this.
 
 <img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps_binary/dbr/dbr1.jpg" alt="dbr1" width="200"/><img src="https://github.com/taimur1871/retinalscan_models/blob/main/heatmaps_binary/dbr/dbr2.jpg" alt="dbr2" width="200"/>
 
-Label Transfer
+## Label Transfer
+The problem that arose in label transfer is that all three models need to be working well to ensure good propogation. This would involved checking each image multiple times and assigning labels based on highest confidence. In this case when only one model was tested it was able to identify normal images well but missclassified a lot of other images.
+
+The notebook custom_arch_label-prop explores this in more detail.
